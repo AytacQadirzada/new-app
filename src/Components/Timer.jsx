@@ -27,6 +27,7 @@ const Timer = () => {
             } else {
               setIsRunning(false);
               clearInterval(interval);
+              alert("Vaxt bitti!"); // Alert burada yalnız bir dəfə göstərilir
               return 0;
             }
           } else {
